@@ -1,0 +1,12 @@
+{
+  "name": "angular",
+  "version": "1.0.0",
+  "dependencies": {
+    "bootstrap": "latest",
+    "angular": "latest",
+    "angular-route": "latest",
+    "ngInfiniteScroll": "^1.3.4",
+    "zInfiniteScroll": "^1.1.4",
+    "ment.io": "^0.9.24"
+  }
+}

@@ -1,0 +1,25 @@
+<div class="jumbotron text-center">
+	<h1>Geek City</h1>
+
+	<p>{{ }}</p>
+</div>
+<style>
+ /**
+  * Classe para manter acima do input a lista de opções
+  */
+mentio-menu .dropdown-menu {
+    display: inline-block;
+    bottom: 100% !important;
+    top: initial;
+	/** Deve ser do tamanho do input para colocar acima dele */
+    margin-bottom: 25px;
+  }
+</style>
+<div class="drop-down-mention">
+<input type="text" 
+       mentio 
+	   mentio-typed-text="typedTerm" 
+	   mentio-items="simplePeople | filter:label:first" 
+	   class="form-control shablau"
+	   ng-model="theTextArea2" size="100" />
+</div>	   
